@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.python
 %define 	zope_subname	Epoz
 Summary:	epoz allows you to edit Zope or Plone-objects with a wysiwyg-editor (primary ver.)
 Summary(pl):	Dodatek do Zope lub Plone umo¿liwiaj±cy manipulacje na obiektach w trybie WYSIWYG
