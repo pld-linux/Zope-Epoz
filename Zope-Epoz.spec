@@ -2,12 +2,12 @@
 Summary:	epoz allows you to edit Zope or Plone-objects with a WYSIWYG-editor (primary ver.)
 Summary(pl):	Dodatek do Zope lub Plone umo¿liwiaj±cy manipulacje na obiektach w trybie WYSIWYG
 Name:		Zope-%{zope_subname}
-Version:	0.8.5
-Release:	2
+Version:	0.8.6
+Release:	1
 License:	ZPL 2.0
 Group:		Development/Tools
 Source0:	http://mjablonski.zope.de/Epoz/releases/%{zope_subname}-%{version}.tar.gz
-# Source0-md5:	ac36ddcd6a7dc33ec7d943cbd4d5b5af
+# Source0-md5:	003e859473e2036d18ab4ef1d77c1a2c
 URL:		http://mjablonski.zope.de/Epoz/
 %pyrequires_eq	python-modules
 Requires:	Zope
