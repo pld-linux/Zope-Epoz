@@ -9,6 +9,7 @@ Group:		Development/Tools
 Source0:	http://mjablonski.zope.de/Epoz/releases/%{zope_subname}-%{version}.tar.gz
 # Source0-md5:	003e859473e2036d18ab4ef1d77c1a2c
 URL:		http://mjablonski.zope.de/Epoz/
+BuildRequires:  python
 %pyrequires_eq	python-modules
 Requires:	Zope
 Requires(post,postun):	/usr/sbin/installzopeproduct
