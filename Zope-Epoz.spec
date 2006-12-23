@@ -6,9 +6,9 @@ Version:	2.0.1
 Release:	1
 License:	ZPL 2.0
 Group:		Development/Tools
-Source0:	http://mjablonski.zope.de/Epoz/releases/%{zope_subname}-%{version}.tar.gz
+Source0:	http://iungo.org/products/Epoz/releases/%{zope_subname}-%{version}.tar.gz
 # Source0-md5:	2c796e323db156ae03876919c4db1e0a
-URL:		http://mjablonski.zope.de/Epoz/
+URL:		http://iungo.org/products/Epoz/
 BuildRequires:	python
 BuildRequires:	rpmbuild(macros) >= 1.268
 %pyrequires_eq	python-modules
@@ -28,8 +28,6 @@ trybie WYSIWYG - (wersja pierwotna).
 
 %prep
 %setup -q -c
-
-%build
 
 %install
 rm -rf $RPM_BUILD_ROOT
