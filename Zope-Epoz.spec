@@ -1,6 +1,6 @@
 %define 	zope_subname	Epoz
 Summary:	epoz allows you to edit Zope or Plone-objects with a WYSIWYG-editor (primary ver.)
-Summary(pl):	Dodatek do Zope lub Plone umo¿liwiaj±cy manipulacje na obiektach w trybie WYSIWYG
+Summary(pl.UTF-8):   Dodatek do Zope lub Plone umoÅ¼liwiajÄ…cy manipulacje na obiektach w trybie WYSIWYG
 Name:		Zope-%{zope_subname}
 Version:	2.0.1
 Release:	1
@@ -22,8 +22,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 epoz allows you to edit Zope or Plone-objects with a WYSIWYG-editor.
 (primary version)
 
-%description -l pl
-Dodatek do Zope lub Plone umo¿liwiaj±cy manipulacje na obiektach w
+%description -l pl.UTF-8
+Dodatek do Zope lub Plone umoÅ¼liwiajÄ…cy manipulacje na obiektach w
 trybie WYSIWYG - (wersja pierwotna).
 
 %prep
